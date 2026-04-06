@@ -1,0 +1,27 @@
+# 1. INSTALLS & IMPORTS
+!pip install -U langchain-community langchain-groq docx2txt langchain-huggingface chromadb
+from google.colab import drive, userdata
+import os
+from langchain_community.document_loaders import TextLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+
+# 2. CONNECT DRIVE & LOAD
+drive.mount('/content/drive', force_remount=True)
+# Ensure this path matches your folder name in Drive!
+file_path = "/content/drive/MyDrive/AI_Portfolio_Sundar/Sundar_Data_AIML_AgentiCAI.txt" 
+
+if os.path.exists(file_path):
+    loader = TextLoader(file_path)
+    docs = loader.load()
+    # High-recall chunking strategy for precision dates
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    chunks = text_splitter.split_documents(docs)
+
+    # 3. INITIALIZE VECTOR DB
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    vector_db = Chroma.from_documents(documents=chunks, embedding=embeddings)
+    print("✅ DATA ENGINE READY: Resume indexed and searchable.")
+else:
+    print("❌ ERROR: Resume file not found in Drive. Check your folder path.")
