@@ -1,0 +1,77 @@
+Sundara Rao Damaraju
+Bangalore   +91 95389 73478   sundara.damaraju@gmail.com   linkedin.com/in/sundararaodamaraju
+Key Skills: Technical Program Manager, Healthcare, Fintech, Legacy Modernization, Agentic AI, Generative AI, MCP, LLM, RAG, MLOps, Hybrid Cloud, Microservices, Cloud Transformation, Program Governance
+EXECUTIVE SUMMARY
+Senior Technical Program Manager with 20+ years delivering enterprise AI, data, and modernization programs across Fintech, Life Sciences, and Healthcare. Career spans a deliberate progression through three layers of modern technology: application modernization and microservices at EVRY, data engineering and traditional AI/ML at Clarivate, and Generative AI governance and delivery at Abbott. Proven ownership from RFP to production with P&L accountability up to $6-7MN USD, leading distributed global teams of 30-50+ engineers across India, US, and Europe. Known for driving architectural decisions - selecting LangGraph over LangChain for stateful agent orchestration, OpenSearch Serverless for auto-scaling RAG, and explainable statistical models over deep learning for regulated pharma compliance - bridging deep technical judgment with cross-functional program delivery.
+PROFESSIONAL EXPERIENCE
+Darner AI Innovations   Apr 2025 - Present
+Role: Technical Program Manager   Title: Technical Program Manager
+Projects: Garth - Execution Intelligence Platform   PR Review Agent 
+* Led delivery of Garth, an Agentic AI execution engine
+* Integrated Jira, Asana, GitHub, and MSP using Model Context Protocol
+* Provided leadership with real-time engineering visibility
+* Replaced manual status reporting with AI workflows, achieving 85% on-time delivery rate
+* Reclaimed 20-40% of engineering capacity and reduced merge wait times by 60% through AI-driven PR Review Agent
+Abbott Laboratories   Nov 2022 - Mar 2025
+Role : Senior Technical Program Manager   Title: Senior Program Manager
+Project: Vascular Field Intelligence Platform   Mar 2024 - Mar 2025
+* Led delivery of Vascular Field Intelligence Platform, an Agentic RAG ecosystem for Abbott MedTech Vascular division
+* Grounded all AI outputs exclusively in verified Abbott technical manuals, eliminating hallucinations in surgical settings
+* Enabled field sales reps and clinical specialists to get instant citation-backed answers during live procedures
+* Reduced query resolution time by 70% compared to manual PDF search
+* Reduced back-office escalations by 30% through verified, source-cited AI responses
+* Chose LangGraph over LangChain for stateful multi-step agent orchestration; selected OpenSearch Serverless over self-managed Elasticsearch to enable zero-ops auto-scaling across global sales force on Amazon Bedrock
+* Established Human-in-the-Loop framework ensuring Clinical SME validation before deployment
+Project: Privacy, Consent and Data Governance Automation   Nov 2022 - Feb 2024
+* Led delivery of Privacy, Consent and Data Governance Automation platform for Abbott MedTech across global jurisdictions
+* Automated consent template generation using Amazon Bedrock with pre-approved legal clause library
+* Cross-referenced all templates against vector database of local legal frameworks including GDPR, CCPA, and LGPD
+* Transformed legal teams from bottleneck to approvers through self-service template engine
+* Enabled data scientists with programmatic green and red light access control on every dataset
+* Saved $750K annually by replacing manual legal drafting and review process
+* Reduced back-office escalations by 30% through automated consent metadata tagging and enforcement
+* Achieved 100% audit readiness for GDPR and HIPAA through real-time CloudWatch logging
+Clarivate   Aug 2019 - Nov 2022
+Role: Technical Program Manager   Title: Agile Program Manager
+Project: Cortellis Predictive Enablement   Sep 2021 - Nov 2022
+* Led delivery of Cortellis Predictive Enablement, a batch-based predictive analytics layer built on top of the Enterprise Clinical Data Lake
+* Engineered PySpark feature pipelines on AWS EMR orchestrated via Apache Airflow
+* Enabled pharma R&D teams to forecast drug development timelines and probability of clinical success
+* Enabled editorial teams to identify emerging research trends before competitors
+* Reduced manual editorial effort by 40% through automated trend detection
+* Reduced research discovery time by 25% for pharma scientists using Cortellis
+* Chose explainable statistical models (XGBoost + SHAP) over deep learning for regulated pharma compliance — enabling audit-ready feature attribution and FDA submission traceability
+Project: Enterprise Clinical Data Lake   Aug 2019 - Sep 2021
+* Led delivery of Enterprise Clinical Data Lake on AWS as single source of truth for Cortellis life sciences intelligence platform, managing 25+ engineers across US and India in a SAFe Agile delivery model
+* Consolidated fragmented clinical data sources including patents, trial registries, regulatory feeds, SEC filings, and scientific journals
+* Built automated ontology mapping pipelines standardizing MedDRA, MeSH, and ICD terminologies across global lab systems
+* Engineered high-throughput ingestion pipelines processing 10+ source types
+* Reduced data processing speed by 25% compared to manual ingestion
+* Reduced editorial team workload by 40% through automated terminology translation
+* Reduced research discovery time by 30% for pharma scientists using Cortellis
+EVRY (now TCS Norway)   Jun 2015 - Mar 2019
+Role: Senior Technical Program Manager   Title : Senior Project Manager
+Project: Core Banking Legacy Modernization
+* Led delivery of Core Banking Legacy Modernization for Nordic banking clients in one of the most regulated financial environments in Europe
+* Decomposed monolithic Core Banking systems into microservices using strangler fig pattern with zero downtime, leading a cross-functional team of 35+ engineers across Norway and India
+* Established centralized API repository as the single integration backbone replacing custom point-to-point integrations
+Cathyos Labs   2019
+Role: Technical Program Manager   Title: Senior Program Manager
+* Delivered program management engagement for a Fortune 500 digital experience client
+BFSI Engagements - Citibank, ANZ Bank, National Australia Bank, Commonwealth Bank of Australia   2009 - 2015
+Project Management and Cloud Transformation
+* Led On-Premise to Cloud migrations for global banks - Portfolio Management and Risk systems with zero-downtime delivery
+* Delivered AML, KYC, and Fraud Detection platforms across multiple jurisdictions with full compliance accountability
+Early Career   2001 - 2009
+Software Development to Project Leadership
+* Progressed from Full-Stack Developer to Project Leadership through client engagements across India, USA, and Australia
+TECHNICAL TOOLKIT
+AI and ML:  Generative AI, Agentic AI, RAG, LLMs (GPT, BERT), Predictive ML, MLOps, MCP, Model Governance
+Data and Cloud:  Cloud Lakehouse, Data Lake, Data Engineering, Vector Databases (FAISS, ChromaDB), AWS (S3, EMR, Redshift, Glue), Azure, GCP, Cloud Migration
+Architecture:  Microservices, API Design, Modularization, Core Banking Systems, Legacy Modernization
+Leadership:  Portfolio and Program Management, P&L up to $20M, RFP to Delivery, Agile, SAFe, Onsite-Offshore Delivery
+Compliance:  GxP, GDPR, CCPA, Privacy-by-Design, DPIA, AML, KYC, Audit Readiness, Risk Management
+EDUCATION AND CERTIFICATIONS
+* Master of Computer Applications (MCA) - Andhra University
+* Project Management Professional (PMP)   ID: 1813739   Valid to May 2027
+* PMI Agile Certified Practitioner (PMI-ACP)   ID: 2164770   Valid to March 2030
