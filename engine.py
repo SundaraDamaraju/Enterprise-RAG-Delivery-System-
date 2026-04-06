@@ -15,7 +15,7 @@ from langchain_core.prompts import ChatPromptTemplate
 api_key = os.getenv("GROQ_API_KEY") 
 
 # Load the Manifest (Ensure this filename matches your GitHub exactly)
-file_path = "SundarResume.txt" 
+file_path = "/content/drive/MyDrive/AI_Portfolio_Sundar/Sundar_Data_AIML_AgentiCAI.txt" 
 
 if os.path.exists(file_path):
     loader = TextLoader(file_path)
